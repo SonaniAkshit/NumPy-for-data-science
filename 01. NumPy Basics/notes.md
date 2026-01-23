@@ -15,7 +15,7 @@ If Python lists are general containers, NumPy arrays are **mathematical objects*
 You do not use NumPy to “store data”.
 You use NumPy to **compute on data**.
 
----
+
 
 ## 2. Why NumPy exists (this is the real reason)
 
@@ -73,7 +73,7 @@ This single idea explains:
 * Memory efficiency
 * Why NumPy exists at all
 
----
+
 
 ## 3. NumPy vs Python list (do NOT confuse these)
 
@@ -120,7 +120,7 @@ Explanation:
 
 If you ever say “lists and arrays are almost the same”, that is **wrong** and interviewers know it.
 
----
+
 
 ## 4. What is `ndarray` (core NumPy object)
 
@@ -146,7 +146,7 @@ Every NumPy array has:
 
 If you don’t think in **shape**, NumPy will punish you later.
 
----
+
 
 ## 5. Import convention: `import numpy as np`
 
@@ -165,7 +165,7 @@ Why:
 
 Using random aliases or avoiding `np` signals inexperience.
 
----
+
 
 ## 6. How NumPy is used in real data science
 
@@ -188,7 +188,7 @@ X_scaled = (X - X.mean()) / X.std()
 
 This is real ML preprocessing.
 
----
+
 
 ## 7. Common beginner mistakes (fix these early)
 
@@ -200,7 +200,7 @@ This is real ML preprocessing.
 
 Most ML bugs are **shape bugs**, not model bugs.
 
----
+
 
 ## 8. Common interview traps
 
@@ -212,7 +212,7 @@ Most ML bugs are **shape bugs**, not model bugs.
 
 Interviewers care about **reasoning**, not syntax.
 
----
+
 
 ## 9. Minimal math you need now
 
@@ -224,7 +224,7 @@ Only this:
 
 No more theory at this stage.
 
----
+
 
 ## 10. Practice (DO NOT SKIP)
 
@@ -261,7 +261,7 @@ No more theory at this stage.
 19. Why is `import numpy as np` a standard?
 20. What happens if you treat NumPy like a list?
 
----
+
 
 ### Final checkpoint
 
